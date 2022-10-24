@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panthosala Form Area</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+   <body>
+		<section class="about_area">
+			<div class="container">
+				<div class="form_area">
+					<div class="text_area">
+						<h2>Book A <span>Table</span></h2>
+					</div>
+					<div class="form_inner">
+						<form action="?">
+							<input type="text" name="Name" id="name_x" placeholder="Full Name">
+							<input type="text" name="Month" id="month_y" placeholder="Month">
+						</form>
+					</div>
+					<div class="form_inner">
+						<form action="?">
+							<input type="text" name="Email" id="email_z" placeholder="Your email">
+							<input type="text" name="Day" id="day_xy" placeholder="Day">
+						</form>
+					</div>
+					<div class="form_inner">
+						<form action="?">
+							<input type="text" name="Phone" id="phone_xz" placeholder="Phone">
+							<div class="form_pomo">
+								<select name="option_hour" id="option_yx" placeholder="Hour">
+									<option value="hour">12.00</option>
+									<option value="hour">11.00</option>
+									<option value="hour">10.00</option>
+									<option value="hour">9.00</option>
+									<option value="hour" selected>Hour</option>
+								</select>
+								
+								<select name="option_min" id="option_yz" placeholder="Min">
+									<option value="min">0.5</option>
+									<option value="min">10</option>
+									<option value="min">20</option>
+									<option value="min">50</option>
+									<option value="min" selected>Min</option>
+								</select>
+								
+								<select name="option_am" id="option_zx" placeholder="AM">
+									 <option value="am" selected>AM</option>
+									 <option value="pm">PM</option>
+								</select>
+								
+							</div>
+								<i class="fa fa-angle-down" id="hour"></i>
+								<i class="fa fa-angle-down" id="min"></i>
+								<i class="fa fa-angle-down" id="am"></i>
+						</form>
+					</div>
+					<div class="form_inner">
+						<form action="?">
+							<input type="number" name="counter" id="x" placeholder="Gusets Number">
+							<output name="counter" id="counter_pomo"></output>
+							<input type="text" name="comments" id="comments_zy" placeholder="Comments">
+						</form>
+					</div>
+				</div>
+				<div class="btn_submit">
+					<a href="#" class="btn">Submit</a>
+				</div>
+			</div>
+		</section>
+
+	
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/npm.js"></script>
+</body>
+</html>
